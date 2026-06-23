@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://akashyadav24.github.io/NDG-pharma",
   "description": "Premium enterprise landing page for NDG Pharmaceutical Pvt. Ltd.",
   "scripts": {
     "dev": "vite",
