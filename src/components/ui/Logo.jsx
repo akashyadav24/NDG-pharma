@@ -17,7 +17,7 @@ import { COMPANY } from '../../data/content';
 export default function Logo({ className = 'h-11 w-auto', chip = false }) {
   const img = (
     <img
-      src="/logo.png"
+      src={`${import.meta.env.BASE_URL}logo.png`}
       alt={`${COMPANY.name} logo`}
       className={className}
       loading="eager"

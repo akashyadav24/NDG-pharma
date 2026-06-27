@@ -103,7 +103,7 @@ export const PRODUCTS = [
     composition: 'Prebiotic, Probiotic & Immunobiotic Capsules',
     description:
       'The synergy of 3 — feeds and replenishes good bacteria while supporting immunity for better digestion and a balanced gut microbiome.',
-    image: '/products/procap-g.png',
+    image: `${import.meta.env.BASE_URL}products/procap-g.png`,
   },
   {
     name: 'AMSLIV-M',
@@ -111,7 +111,7 @@ export const PRODUCTS = [
     composition: 'Levocetirizine 5 mg + Montelukast 10 mg',
     description:
       'Dual-action allergy relief from sneezing, runny nose, nasal congestion and allergic asthma — long-lasting comfort, day and night.',
-    image: '/products/amsliv-m.png',
+    image: `${import.meta.env.BASE_URL}products/amsliv-m.png`,
   },
   {
     name: 'CALCICAL-NDG',
@@ -119,7 +119,7 @@ export const PRODUCTS = [
     composition: 'Calcitriol, Calcium Carbonate & Zinc Capsules',
     description:
       'Advanced bone-health formula that improves calcium absorption, strengthens bones and teeth, and supports joint health.',
-    image: '/products/calcical-ndg.png',
+    image: `${import.meta.env.BASE_URL}products/calcical-ndg.png`,
   },
   {
     name: 'LYCOVIT-NDG',
@@ -127,7 +127,7 @@ export const PRODUCTS = [
     composition: 'Ginseng, Lycopene & Green Tea Extract Tablets',
     description:
       'Multivitamins, minerals & antioxidants that support immunity, energy and cellular health for everyday vitality.',
-    image: '/products/lycovit-ndg.png',
+    image: `${import.meta.env.BASE_URL}products/lycovit-ndg.png`,
   },
 ];
 
